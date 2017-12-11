@@ -13,9 +13,9 @@ public class Main {
 			Toys pIronMan1 = toyFac.produce("IronMan");
 			Toys pSpiderMan1 = toyFac.produce("SpiderMan");
 
-			//加入一個不在工廠邏輯中的玩具類型
-			Toys pWonderWoman1 = toyFac.produce("WonderWoman");
-			pWonderWoman1.run();
+			//---測試---加入一個不在工廠邏輯中的玩具類型
+//			Toys pWonderWoman1 = toyFac.produce("WonderWoman");
+//			pWonderWoman1.run();
 			
 			// 兩種玩具各自執行同一個動作
 			pIronMan1.showSpecification();
