@@ -14,4 +14,10 @@ public class IronMan extends Toys{
 		System.out.println("IronMan can fly.");
 	}
 
+	@Override
+	public void showColor() {
+		// TODO Auto-generated method stub
+		System.out.println("IronMan is Red and Gold.");
+	}
+
 }

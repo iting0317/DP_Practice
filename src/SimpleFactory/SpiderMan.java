@@ -14,4 +14,10 @@ public class SpiderMan extends Toys{
 		System.out.println("SpiderMan can't fiy.");
 	}
 
+	@Override
+	public void showColor() {
+		// TODO Auto-generated method stub
+		System.out.println("SpiderMan is red.");
+	}
+
 }
