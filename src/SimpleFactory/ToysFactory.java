@@ -2,7 +2,7 @@ package SimpleFactory;
 
 public class ToysFactory {
 
-	public Toys produce(String type) {
+	public Toys produce(String type){
 
 		try {
 			switch (type) {
@@ -11,9 +11,8 @@ public class ToysFactory {
 			case "SpiderMan":
 				return new SpiderMan();
 			}
-		} catch (Exception e) {
-			System.out.print("沒有這種類型的玩具!");
-			return null;
+		} catch (NullPointerException e) {
+			throw e;
 		}
 		return null;
 	}
