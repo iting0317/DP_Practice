@@ -1,6 +1,6 @@
 package SimpleFactory;
 
-public class ToysFactory {
+public class HeroToysFactory {
 
 	public IHeroToys produce(String type){
 

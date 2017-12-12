@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		// 宣告一個玩具工廠實例
-		ToysFactory toyFac = new ToysFactory();
+		HeroToysFactory toyFac = new HeroToysFactory();
 
 		// 由工廠生產玩具的實例
 		try {
