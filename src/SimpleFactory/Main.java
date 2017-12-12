@@ -3,7 +3,6 @@ package SimpleFactory;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// 宣告一個玩具工廠實例
 		HeroToysFactory toyFac = new HeroToysFactory();
