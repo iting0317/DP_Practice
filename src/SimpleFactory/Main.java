@@ -10,8 +10,8 @@ public class Main {
 
 		// 由工廠生產玩具的實例
 		try {
-			Toys pIronMan1 = toyFac.produce("IronMan");
-			Toys pSpiderMan1 = toyFac.produce("SpiderMan");
+			IHeroToys pIronMan1 = toyFac.produce("IronMan");
+			IHeroToys pSpiderMan1 = toyFac.produce("SpiderMan");
 
 			//---測試---加入一個不在工廠邏輯中的玩具類型
 //			Toys pWonderWoman1 = toyFac.produce("WonderWoman");
@@ -19,11 +19,11 @@ public class Main {
 			
 			// 兩種玩具各自執行同一個動作
 			pIronMan1.showSpecification();
-			pIronMan1.showColor();
+			pIronMan1.showPublisher();
 			pIronMan1.run();
 
 			pSpiderMan1.showSpecification();
-			pSpiderMan1.showColor();
+			pSpiderMan1.showPublisher();
 			pSpiderMan1.run();
 		} catch (Exception e) {
 			System.out.print("發生例外事件：");

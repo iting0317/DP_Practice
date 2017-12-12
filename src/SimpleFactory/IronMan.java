@@ -1,6 +1,6 @@
 package SimpleFactory;
 
-public class IronMan extends Toys{
+public class IronMan implements IHeroToys{
 
 	@Override
 	public void showSpecification() {
@@ -15,9 +15,9 @@ public class IronMan extends Toys{
 	}
 
 	@Override
-	public void showColor() {
+	public void showPublisher() {
 		// TODO Auto-generated method stub
-		System.out.println("IronMan is Red and Gold.");
+		System.out.println("IronMan belongs to Marvel.");
 	}
 
 }

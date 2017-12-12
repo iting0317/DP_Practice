@@ -2,7 +2,7 @@ package SimpleFactory;
 
 public class ToysFactory {
 
-	public Toys produce(String type){
+	public IHeroToys produce(String type){
 
 		try {
 			switch (type) {
