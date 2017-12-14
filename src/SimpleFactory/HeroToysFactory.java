@@ -2,17 +2,17 @@ package SimpleFactory;
 
 public class HeroToysFactory {
 
-	public IHeroToys produce(String type){
+	public enum HeroToysType {
+		IronMan, SpiderMan;
+	}
 
-		try {
-			switch (type) {
-			case "IronMan":
-				return new IronMan();
-			case "SpiderMan":
-				return new SpiderMan();
-			}
-		} catch (NullPointerException e) {
-			throw e;
+	public HeroToys produce(HeroToysType ironman) {
+
+		switch (ironman) {
+		case IronMan:
+			return new IronMan();
+		case SpiderMan:
+			return new SpiderMan();
 		}
 		return null;
 	}

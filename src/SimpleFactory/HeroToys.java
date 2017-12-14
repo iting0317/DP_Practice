@@ -1,5 +1,5 @@
 package SimpleFactory;
 
-public interface IHeroToys extends IToys{
+public interface HeroToys extends Toys{
 	public abstract void showPublisher();
 }

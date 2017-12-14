@@ -1,6 +1,6 @@
 package SimpleFactory;
 
-public class SpiderMan implements IHeroToys{
+public class SpiderMan implements HeroToys{
 
 	@Override
 	public void showSpecification() {

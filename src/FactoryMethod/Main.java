@@ -1,8 +1,6 @@
 package FactoryMethod;
 
 import FactoryMethod.ToysFactory.ToysType;
-import SimpleFactory.HeroToysFactory;
-import SimpleFactory.IHeroToys;
 
 public class Main {
 

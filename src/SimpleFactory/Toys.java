@@ -1,6 +1,6 @@
 package SimpleFactory;
 
-public interface IToys {
+public interface Toys {
 	public void showSpecification();
 	public void run();
 }
