@@ -28,7 +28,9 @@ public class Main {
 			System.out.print("發生例外事件：");
 			System.out.print(e+"：包含沒有生產的玩具類型");
 		}
-
+		
+		//在maser分支加入一行，測試。
+		System.out.println("Master merge test.");
 	}
 
 }
