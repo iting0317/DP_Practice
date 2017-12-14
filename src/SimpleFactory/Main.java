@@ -29,8 +29,8 @@ public class Main {
 			System.out.print(e+"：包含沒有生產的玩具類型");
 		}
 		
-		//在maser分支加入一行，測試。
-		System.out.println("Master merge test.");
+		//測試，這是FactoryMethod分支的
+		System.out.println("保留FactoryMethod Branch的版本");
 	}
 
 }
