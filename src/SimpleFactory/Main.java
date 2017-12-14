@@ -28,9 +28,7 @@ public class Main {
 			System.out.print("發生例外事件：");
 			System.out.print(e+"：包含沒有生產的玩具類型");
 		}
-		
-		//測試，這是FactoryMethod分支的
-		System.out.println("保留FactoryMethod Branch的版本");
+
 	}
 
 }
