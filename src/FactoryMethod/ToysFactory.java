@@ -2,11 +2,7 @@ package FactoryMethod;
 
 public abstract class ToysFactory {
 	
-	public enum ToysType{
-		IronMan, SpiderMan, SpiderManDeluxeEdition;
-	} 
-	
-	public Toys orderToys(ToysType toysType) {
+	public Toys orderToys(ToyType toysType) {
 		System.out.println(getClass()+"正在生產玩具");
 		Toys toys = produceToys(toysType); 
 		toys.action();
@@ -14,5 +10,5 @@ public abstract class ToysFactory {
 		return toys;
 	}
 	
-	protected abstract Toys produceToys(ToysType toysType);
+	protected abstract Toys produceToys(ToyType toysType);
 }

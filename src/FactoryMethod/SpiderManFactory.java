@@ -3,7 +3,7 @@ package FactoryMethod;
 public class SpiderManFactory extends ToysFactory {
 
 	@Override
-	protected Toys produceToys(ToysType toysType) {
+	protected Toys produceToys(ToyType toysType) {
 		
 		switch (toysType) {
 		case SpiderMan:
