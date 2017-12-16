@@ -3,7 +3,7 @@ package FactoryMethod;
 public abstract class ToysFactory {
 	
 	public enum ToysType{
-		IronMan, SpiderMan;
+		IronMan, SpiderMan, SpiderManDeluxeEdition;
 	} 
 	
 	public Toys orderToys(ToysType toysType) {
