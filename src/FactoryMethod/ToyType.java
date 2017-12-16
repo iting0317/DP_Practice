@@ -1,5 +1,5 @@
 package FactoryMethod;
 
 public enum ToyType {
-	IronMan, SpiderMan, SpiderManDeluxeEdition;
+	IronMan, IronManDeluxeEdition, SpiderMan, SpiderManDeluxeEdition;
 }

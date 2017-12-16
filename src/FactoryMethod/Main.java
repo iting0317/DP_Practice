@@ -6,6 +6,7 @@ public class Main {
 		//鋼鐵人玩具工廠
 		ToysFactory ironManToyFacory = new IronManFactory();
 		Toys ironManToy = ironManToyFacory.orderToys(ToyType.IronMan);
+		Toys ironManToyDeluxeEdition = ironManToyFacory.orderToys(ToyType.IronManDeluxeEdition);
 		
 		//蜘蛛人玩具工廠
 		ToysFactory spiderManToyFacory = new SpiderManFactory();

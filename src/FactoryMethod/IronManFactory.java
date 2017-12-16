@@ -8,6 +8,8 @@ public class IronManFactory extends ToysFactory {
 		switch (toysType) {
 		case IronMan:
 			return new IronManToy();
+		case IronManDeluxeEdition:
+			return new IronManToyDeluxeEdition();
 		default:
 			break;
 		}
